@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, rgb(238, 255, 0),darkorange);
+    font-family: Arial, verdana, sans-serif;
+}
+h1{
+    color:red;
+    font-family: monospace,sans-serif;
+}
+h1#principal{
+    color: darkred;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+h2{
+    color: green;
+    font-family: monospace,sans-serif;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Vermelho{
+    background-image: linear-gradient(to right, black,red);
+    color: red;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.Verde{
+    background-image: linear-gradient(to right, green, rgb(255, 255, 255));
+    color:white;
+    font-size: 20px;
+    font-family: sans-serif;
+}

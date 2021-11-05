@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica</title>
+    <link rel="shortcut icon" href="Turbomilk-Linux.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Testando as imagens, elas vão abrir em telas grandes, medias e em telas pequenas.
+        <picture>
+            <source media="(max-width:550px )" srcset="imagens/IMG-p.jpg" type="image/jpg">
+            <source media="(max-width: 850px)" srcset="imagens/IMG-m.jpg" type="image/jpg">
+            <source media="(max-width: 1050px)" srcset="imagens/IMG-g.jpg" type="image/jpg">
+            <img src="imagens/IMG-g.jpg" alt="Imagem flexivel">
+        </picture>
+    </h1>
+</body>
+</html>
